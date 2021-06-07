@@ -1,0 +1,223 @@
+
+/* global */
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    margin: 5px
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+p {
+    color: #646464;
+    font-size: 14px;
+}
+
+#home-section{
+    border: 1px solid red;
+}
+#slider-section{
+    border: 1px solid yellow;
+}
+#pages-section{
+    border: 1px solid orange;
+}
+#layout-section{
+    border: 1px solid greenyellow;
+}
+#tools-section{
+    border: 1px solid fuchsia;
+}
+#blog-section{
+    border: 1px solid rgb(20, 17, 20);
+}
+#custom-section{
+    border: 1px solid darkblue
+}
+#mobile-section{
+    border: 1px solid maroon
+}
+#mobile-section{
+    border: 1px solid saddlebrown
+}
+#statistics-section{
+    border: 1px solid mediumaquamarine
+}
+#comment-section{
+    border: 1px solid darkgoldenrod
+}
+#search-section{
+    border: 1px solid forestgreen
+}
+#cloud-section{
+    border: 1px solid brown
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+
+
+/* flexBox*/
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.space-around {
+    justify-content: space-around;
+
+}
+.home-section-header{
+    background-image:url('../assets/img/hero-tour.jpg');
+    background-size: cover;
+    position:relative;
+    height:750px;
+ 
+}
+.home-section-footer {
+background-color: lightgray;
+padding: 5px 0;
+border-bottom: 1px solid grey;
+filter: opacity(0.5);
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+    margin: auto;
+     
+}
+
+header nav {
+    margin: 16px 40px;
+}
+
+header nav ul {
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    list-style-type: none;
+
+}
+
+header nav ul li a {
+    color: #868686;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.bg-grey {
+     background: #f3f3f3;
+}
+
+.text-center {
+    text-align: center;
+    margin: auto;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.p-section {
+    max-width: 550px;
+    line-height: 25px;
+}
+
+hr {
+    background:black;
+    height: 3px;
+    width: 15%;
+    margin: 15px auto;
+     border: none;
+
+}
+
+.m-top {
+    margin-top: 50px;
+}
+
+.padding {
+     padding:65px 15px !important;
+
+}
+
+.hr-left {
+    border-color: #000;
+    background: #000;
+    width: 250px;
+    border-width: 1.5px;
+    margin: 15px 0;
+}
+
+img {
+   width:  100% ;
+}
+
+.img-profile {
+      display: inline-block;
+      width: 15%;
+      text-align: center;
+}
+
+img.img-logo-android{
+    width: 15%;
+}
+
+footer {
+  background: black;
+}
+
+footer section.container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-item-title {
+     color:white;
+     font-size:16px;
+     letter-spacing:2px;
+      margin-bottom:25px;
+
+
+}
+
+.footer-item-list a{
+    color:grey; 
+     
+}
+
