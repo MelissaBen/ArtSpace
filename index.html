@@ -11,7 +11,36 @@
 <body>
     <!--START-header-->
 
-    <header role="banner">
+        <header class="container" role="banner">
+
+            <div  class="logo-container">
+                <img src="./assets/img/logo.png" alt="Logo Art Space">   
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="active-menu" href="./index.html">Tour</a>
+                    </li>
+                    <li>
+                        <a href="#">Templates</a>
+                    </li>
+                    <li>
+                        <a href="#">Developers</a>
+                    </li>
+                    <li>
+                        <a href="./pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+
+   <!---- <header role="banner">
 
       <div class="logo-container">
          <img src="./assets/img/logo.png" alt="logo-artSpace">
@@ -37,8 +66,10 @@
         </ul>
       </nav>
 
+      
+
     </header>
-    
+-->
     <!--END-header-->
 
     <!--START-main-->
@@ -90,6 +121,7 @@
                     <hr class="hr-center">
                     <p class="text text-center ">Art.space starts you with beautiful templates right out of the box - each handcrafted by our award-winning design team to make your content stand out.</p>
                 </div>  
+                
             </article>
         </section>
 
@@ -112,7 +144,7 @@
         <!--START-layout-section-->
 
         <section id="layout-section">
-            <article class="container">
+            <article class="container padding">
                  <h2>Introducing LayoutEngine. <br> A new page builder from ArtSpace.</h2>
                 <hr class="hr-left">
                 <p class="text">Our revolutionary LayoutEngine technology gives you the freedom to create visually rich pages with any configuration of text, images, or blocks by dragging items exactly where you want them. Welay things out in a perfect grid, so everything is always aligned.</p>
@@ -165,12 +197,12 @@
         <!--START-mobile-section-->
 
         <section id="mobile-section">
-            <article class="container flex">
+            <article class="container flex padding">
                 <div>   
                     <h2>Mobile sites built right in.</h2>
                     <hr class="hr-left">
                     <p class="text ">Each template includes a unique mobile <br> design, so anyone can see the beauty of your work <br> anytime, anyplace, on any device.</p>
-                    <a href="#"><img class="img-logo-android" src="assets/img/tour/tour-mobile-logos.png" alt="#"></a>
+                    <a href="#"><img class="img-logo-mobile" src="assets/img/tour/tour-mobile-logos.png" alt="#"></a>
                 </div>
                 <div>
                   <img src="assets/img/tour/tour-mobile.png" alt="#">
@@ -189,20 +221,20 @@
                 <hr class="hr-left">
                 <p class="text">Make your website the center of your online identity and social life on the web with an array of powerful tools.</p>
                     
-                <section id="block-connect" class="flex">
-                    <div >
+                <section id="connect-section" class="flex space-around ">
+                    <div>
                         <img src="assets/img/tour/tour-social-blob.png" alt="Social">
                     </div>
-                    <div class="flex">
+                    <div class="flex ">
                         <ul>
                             <li>Import 
-                                <p>Automatically pull in your latest Twitter stream and Instagram photos to be beautifully displayed on your site.</p>
+                                <p>Automatically pull in your latest Twitter <br> stream and Instagram photos to be <br> beautifully displayed on your site.</p>
                             </li>
                             <li>Sync
-                                <p>Take any page or gallery from your site and seamlessly publish it on your Facebook Page.</p>
+                                <p>Take any page or gallery from your site and <br> seamlessly publish it on your Facebook Page.</p>
                             </li>
                             <li>Publish
-                                <p>Let your blog automatically tweet for you whenever yoyu post something new.</p>
+                                <p>Let your blog automatically tweet for you <br>  whenever yoyu post something new.</p>
                             </li>
                             
                         </ul>
@@ -217,7 +249,7 @@
         <!--START-comment-section-->
 
         <section id="comment-section">
-            <article class="container flex">
+            <article class=" container flex flex-container-responsive">
                 <div> 
                     <img src="assets/img/tour/tour_comments.png" alt="#">
                     <form>
@@ -258,46 +290,51 @@
 
          <!--START-search-section-->
 
-        <section id="search-section" class="container flex">
-            <article>
-                <h2>Search engine optimized.</h2>
-                <hr class="hr-left">
-                <p class="text">Art.Space websites include clean article links, proper tagging, XML sitemaps, and valid XHTML code. All of which make your website loved by search engines.</p> 
-                <div>
-                <p>Rob Space, CEO<span> | </span> <strong>SEO</strong>moz</p>
-                <img class="img-profile" src="assets/img/tour/tour-rob-space.jpg" alt="#">
-  
-                <blockquote>
-                    <cite>The team has put together a remarkable platform. Every aspect of the product - user experience, featureset, SEO friendliness, design and more - all work together to create one of the few content management systems I'm proud to recommend.
-                    </cite>
-                </blockquote>
-            </div>
-            </article>
-            <article>
-                <h2>Choose your contributors.</h2>
-                <hr class="hr-left">
-                <p class="text">Invite contributors to help you manage your website. Set individual permissions, from full admin to a trusted commenter, so you are always in control.</p>
-                    <img src="assets/img/tour/tour-contributors.png" alt="#" >  
-            </article>
+        <section id="search-section" class=" padding ">
+                <article class="container flex flex-container-responsive">
+                    <div>
+                        <h2>Search engine optimized.</h2>
+                        <hr class="hr-left">
+                        <p class="text">Art.Space websites include clean article links, proper tagging, XML sitemaps, and valid XHTML code. All of which make your website loved by search engines.</p> 
+                        <div>
+                           <p>Rob Space, CEO<span> | </span> <strong>SEO</strong>moz</p>
+                           <img class="img-profile" src="assets/img/tour/tour-rob-space.jpg" alt="#">
+             
+                           <blockquote>
+                               <cite>The team has put together a remarkable platform. Every aspect of the product - user experience, featureset, SEO friendliness, design and more - all work together to create one of the few content management systems I'm proud to recommend.</cite>
+                           </blockquote>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h2>Choose your contributors.</h2>
+                        <hr class="hr-left">
+                        <p class="text">Invite contributors to help you manage your website. Set individual permissions, from full admin to a trusted commenter, so you are always in control.</p>
+                        <img src="assets/img/tour/tour-contributors.png" alt="#" >  
+                    </div>
+                </article>
         </section>
 
          <!--END-search-section-->
 
          <!--START-cloud-section-->
          
-        <section id="cloud-section" class="container flex">
-               <article role="article">
-                <h2>Cloud hosting from the best.</h2>
-                <hr class="hr-left">
-                <p class="text">With our reliable and scalable cloud infrastructure, there's no downtime, and nothing to install, patch or upgrade.</p>
-                <img src="assets/img/tour/tour-clouds.png" alt="#">
-            </article>
-            <article role="article">
-                <h2>Custom domain names. <span id="free">Free</span></h2>
-                <hr class="hr-left">
-                <p class="text">Art.Space makes adding your custom domain simple, and every annual account receives a free custom domain.</p>
-                <img src="assets/img/tour/tour-domain.png" alt="#">
-            </article>
+        <section id="cloud-section" class="padding">
+                <article class="container flex flex-container-responsive ">
+                    <div>
+                        <h2>Cloud hosting from the best.</h2>
+                        <hr class="hr-left">
+                        <p class="text">With our reliable and scalable cloud infrastructure, there's no downtime, and nothing to install, patch or upgrade.</p>
+                        <img src="assets/img/tour/tour-clouds.png" alt="#">
+                    </div>
+                
+                    <div>
+                        <h2>Custom domain names. <span class="text-success">Free</span></h2>
+                        <hr class="hr-left">
+                        <p class="text">Art.Space makes adding your custom domain simple, and every annual account receives a free custom domain.</p>
+                        <img src="assets/img/tour/tour-domain.png" alt="#">
+                    </div>
+                </article>
         </section>
          
         <!--END-cloud-section-->
@@ -366,5 +403,11 @@
 
       <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/1c6875637a.js" crossorigin="anonymous"></script>
+
+    <!--script js-->
+    <script src="js/script.js"></script>
+
+    
+
 </body>
 </html>
