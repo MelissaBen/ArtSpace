@@ -1,5 +1,5 @@
 
-/* global */
+/* Start-global */
 
 * {
     font-family: sans-serif;
@@ -20,11 +20,72 @@ body {
     padding: 0 20px;
 }
 
+h1,h2 {
+    text-transform: uppercase;
+}
+
 p {
     color: #646464;
     font-size: 14px;
 }
 
+.bg-grey {
+    background: #f3f3f3;
+}
+
+.text {
+    max-width: 550px;
+    line-height: 25px;
+}
+
+.text-center {
+    text-align: center;
+    margin: auto;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hr-center{
+    background: black;
+    height: 3px;
+    width: 20%;
+    margin: 15px auto;
+    border: none;
+
+}
+
+.hr-left {
+    border-color: #000;
+    background: #000;
+    width: 250px;
+    border-width: 1.5px;
+    margin: 15px 0;
+}
+.m-top {
+    margin-top: 50px;
+}
+
+.padding {
+    padding: 65px 15px !important;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* start-border-draft */
 #home-section{
     border: 1px solid red;
 }
@@ -59,23 +120,21 @@ p {
     border: 1px solid darkgoldenrod
 }
 #search-section{
-    border: 1px solid forestgreen
+    border: 1px solid rgb(3, 31, 3);
+        
+
 }
 #cloud-section{
     border: 1px solid brown
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
- 
+/* end-border-draft */
 
 
-/* flexBox*/
+/* End-global */
+
+
+/* Start-FlexBox */
 
 .flex {
     display: flex;
@@ -90,6 +149,33 @@ a {
     justify-content: space-around;
 
 }
+
+/* End-FlexBox */
+
+/* Start-Home */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 200px;
+    margin: auto;
+    border: 1px solid green;
+
+}
+
+
+header nav ul {
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    color: #868686;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .home-section-header{
     background-image:url('../assets/img/hero-tour.jpg');
     background-size: cover;
@@ -104,86 +190,13 @@ border-bottom: 1px solid grey;
 filter: opacity(0.5);
 
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 250px;
-    margin: auto;
-     
-}
 
-header nav {
-    margin: 16px 40px;
-}
 
-header nav ul {
-    padding: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin: 0 10px;
-    list-style-type: none;
-
-}
-
-header nav ul li a {
-    color: #868686;
-    text-decoration: none;
-    text-transform: uppercase;
-}
+/* End-Home */
 
 
 
-.bg-grey {
-     background: #f3f3f3;
-}
-
-.text-center {
-    text-align: center;
-    margin: auto;
-}
-
-.title-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.p-section {
-    max-width: 550px;
-    line-height: 25px;
-}
-
-hr {
-    background:black;
-    height: 3px;
-    width: 15%;
-    margin: 15px auto;
-     border: none;
-
-}
-
-.m-top {
-    margin-top: 50px;
-}
-
-.padding {
-     padding:65px 15px !important;
-
-}
-
-.hr-left {
-    border-color: #000;
-    background: #000;
-    width: 250px;
-    border-width: 1.5px;
-    margin: 15px 0;
-}
-
+/* start-img */
 img {
    width:  100% ;
 }
@@ -198,6 +211,10 @@ img.img-logo-android{
     width: 15%;
 }
 
+/* end-img */
+
+
+/* start-footer */
 footer {
   background: black;
 }
@@ -221,3 +238,4 @@ footer section.container {
      
 }
 
+/* end-footer */
