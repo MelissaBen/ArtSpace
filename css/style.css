@@ -5,7 +5,7 @@
     font-family: sans-serif;
     box-sizing: border-box;
     outline: none;
-    margin: 5px
+   /* margin: 5px*/
 }
 
 body {
@@ -25,7 +25,7 @@ h1,h2 {
 }
 
 p {
-    color: #646464;
+    /*color: #646464;*/
     font-size: 14px;
 }
 
@@ -273,7 +273,61 @@ main section#home-section div.home-section-header {
     background-size: cover;
     position:relative;
     height:750px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
  
+}
+main section#home-section div.home-section-header hr {
+     width: 20%;
+     height: 3px;
+     background-color: white;
+     border: none;
+ 
+}
+main section#home-section div.home-section-header .artist-name{
+      position: absolute;
+     right: 30px;
+     bottom: 20px;
+     border-right: 1px solid white;
+     padding-right: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end; 
+
+}
+
+main section#home-section div.home-section-header div.artist-name p:nth-child(1){
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+
+}
+main section#home-section div.home-section-header input{
+       background-color: rgb(255, 255, 116);
+       border: none;
+       border-radius: 25px;
+       padding: 15px 30px;
+       text-transform: uppercase;
+       font-weight: bold;
+       margin: 0 10px;
+       cursor: pointer;
+
+}
+main section#home-section div.home-section-header input:hover{
+        color: rgb(255, 255, 116);
+        background-color: transparent;
+        border: 2px solid rgb(255, 255, 116);
+
+}
+main section#home-section div.home-section-header a{
+          color: white;
+          text-transform: uppercase;
+          font-size: 15px;
+
 }
 
 main section#home-section div.home-section-footer {
@@ -613,11 +667,6 @@ footer  nav li a {
 /* End-media queries*/
 
 /* a modifier */
-
-
-
-
-
 
 
 
