@@ -617,10 +617,67 @@ footer  nav li a {
 
 
 
+/* start-slider-section*/
+
+main section#slider-section .slider {
+    z-index: 3;
+    position: relative;
+    overflow-x: hidden;
+    background: url('../assets/img/large-cinema-display.png');
+    background-position: bottom;
+    width: 80%;
+    margin: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+main section#slider-section .slider img{
+   padding: 55px;
+   
+}
 
 
 
+main section .myslider {
+    border: 1px solid black;
+    align-items: center;
+}
 
+main section .myslider .next-slider,
+main section .myslider .prev-slider,
+main section .next-blog-slider,
+main section .prev-blog-slider {
+    cursor: pointer;
+    width: 25px;
+
+}
+
+main section#slider-section {
+    padding-top: 70px ;
+    border: 1px solid black;
+
+}
+
+/* start-slider-section*/
+
+/*
+main section#slider-section img {
+    z-index: 1;
+
+
+}
+/*
+.container-fluid {
+    max-width: 1500px;
+    margin: auto;
+     border:10px solid black;
+
+}
+*/
+/*
+.slick-prev,
+.slick-next.slick-arrow {
+    display: none !important;
+}*/
 
 
 
