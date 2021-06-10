@@ -765,7 +765,7 @@ footer  nav li a {
 
 /* import seamlessly*/
 
-.ok li {
+section#blog-section article.blog-info li {
     margin-right: 10px;
     border: 1px solid red;
 }
