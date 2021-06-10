@@ -74,7 +74,7 @@ hr {
 #pricing-section article hr {
     background-color: white;
     height: 2px;
-    width: 30%;
+    width: 40%;
     margin: 10px auto 15px auto;
 }
 
@@ -97,14 +97,22 @@ hr {
 
 
 
-#pricing-section article span.dollar,
 #pricing-section article span.month {
     height: 100;
     color: rgba(255, 255, 255, 0.4);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
     letter-spacing: 1.2pt;
     margin-top: 15%;
+}
+#pricing-section article span.dollar {
+    height: 100;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1.2pt;
+    margin-top: -15%;
+    padding-right: 0;
 }
 
 #pricing-section article p {
