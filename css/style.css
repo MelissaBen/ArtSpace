@@ -756,34 +756,15 @@ footer  nav li a {
 
 /* End-media queries*/
 
-/* a modifier */
-
 
 
 
 /* start-slider-section*/
 
-main section#slider-section .slider {
-    z-index: 3;
-    position: relative;
-    overflow-x: hidden;
-    background: url('../assets/img/large-cinema-display.png');
-    background-position: bottom;
-    width: 80%;
-    margin: auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-main section#slider-section .slider img{
-   padding: 55px;
-   
-}
-
-
-
 main section .myslider {
     border: 1px solid black;
     align-items: center;
+    /*padding: 30px;*/
 }
 
 main section .myslider .next-slider,
@@ -796,34 +777,38 @@ main section .prev-blog-slider {
 }
 
 main section#slider-section {
-    padding-top: 70px ;
-    border: 1px solid black;
-
+    padding-top: 75px;
 }
 
-/* start-slider-section*/
-
-/*
 main section#slider-section img {
     z-index: 1;
-
-
 }
-/*
+
 .container-fluid {
     max-width: 1500px;
     margin: auto;
-     border:10px solid black;
-
 }
-*/
-/*
+
 .slick-prev,
 .slick-next.slick-arrow {
     display: none !important;
-}*/
+}
 
 
+main section#slider-section .slider {
+    z-index: 3;
+    position: relative;
+    overflow-x: hidden;
+    background: url('../assets/img/large-cinema-display.png');
+    background-position: bottom;
+    width: 80%;
+    margin: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
+main section#slider-section .slider img {
+    padding: 120px;
+}
 
-
+/* End-slider-section*/
