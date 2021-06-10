@@ -1,4 +1,4 @@
-
+//nav-bar
  const $menu = document.querySelector('header nav');
     const $iconeMenu = document.querySelector('.menu');
 
@@ -7,9 +7,25 @@
     })
 
 
-// Can also be used with $(document).ready()
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
+
+//slick-slider
+
+$('.slider').slick({
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow: $('.prev-slider'),
+  nextArrow: $('.next-slider'),
 });
+
+
+$('.blog-slider').slick({
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow: $('.prev-blog-slider'),
+  nextArrow: $('.next-blog-slider'),
+});
+
