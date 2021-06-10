@@ -6,6 +6,7 @@
         $menu.classList.toggle('active')
     })
 
+new WOW().init();
 
 
 //slick-slider
