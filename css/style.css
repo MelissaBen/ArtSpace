@@ -331,6 +331,10 @@ header nav ul li a.active-menu {
     color: black;
     font-weight: bold;
 }
+header nav ul li a:hover{
+    color: black ;
+    font-weight: bold;
+}
 /* End-Home */
 
 /*Start-Main*/
