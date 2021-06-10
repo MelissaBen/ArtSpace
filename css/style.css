@@ -244,32 +244,63 @@ img.img-logo-mobile{
     align-items: center;
 }
 
+.flex-around {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-top {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flex-bottom {
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-center-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
 /* End-FlexBox */
 
 /* Start-Home */
-/*
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0 0 200px;
-    margin: auto;
-    border: 1px solid green;
 
-}
-
-
-header nav ul {
-    padding: 0;
-    display: flex;
-}
-
-header nav ul li a {
-    color: #868686;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-*/
 
 header {
     display: flex;
@@ -641,12 +672,12 @@ footer  nav li a {
 
     header nav {
         position: absolute;
-        right: 0;
-        top: 50px;
+        right: 20px;
+        top: 39px;
         z-index: 10;
         background: white;
         margin: 0;
-        width: 30%;
+        width: 50%;
         border-bottom-left-radius: 5px;
         display: none;
     }
