@@ -812,3 +812,65 @@ main section#slider-section .slider img {
 }
 
 /* End-slider-section*/
+
+
+main section#blog-section .blog-slider {
+    overflow-x: hidden;
+    width: 80%;
+    margin: 0 auto -5px auto;
+}
+
+main section#blog-section .container {
+    margin-bottom: 60px !important;
+}
+
+main section#blog-section .browser-top img,
+main section#blog-section .browser-bottom img {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    width: 80%;
+}
+
+main section#blog-section article h3 {
+    color: #474747;
+    letter-spacing: 2px;
+}
+
+main section#slider .slider img {
+    padding: 120px;
+}
+
+main section h2.center {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+main>section {
+    border-bottom: 2px solid #dfdfdf;
+}
+
+main section#blog-section {
+    padding: 65px 15px;
+}
+
+main section#blog-section section {
+    margin-top: 60px;
+}
+
+main section#blog-section p:nth-child(2) {
+    margin: 25px 0;
+}
+
+main section#blog-section article section p {
+    margin: 20px 0;
+}
+
+main section#blog-section article section ul li {
+    margin-right: 15px;
+}
+
+main section#blog-section article section ul img {
+    width: 25px;
+}
