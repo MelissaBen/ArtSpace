@@ -110,9 +110,13 @@ p {
 
 .padding {
     padding: 50px 15px !important;
-
 }
-
+.padding-slider {
+    padding: 50px  0 0 15px !important;
+}
+.m-a {
+    margin: 10px;
+}
 
 ul {
     list-style: none;
@@ -254,6 +258,7 @@ img.img-logo-mobile{
 }
 
 
+
 /* End-FlexBox */
 
 /* Start-Home */
@@ -390,9 +395,7 @@ color:black;
 
 
 main section .myslider {
-    border: 1px solid black;
     align-items: center;
-    /*padding: 30px;*/
 }
 
 main section .myslider .next-slider,
@@ -440,6 +443,13 @@ main section#slider-section .slider img {
 }
 
 /*END-slider-section*/
+
+/*start -pages-section*/
+#pages-section article div {
+    padding-top: 35px;
+}
+
+/*END-pages-section*/
 
 /*START-blog-section*/
 
@@ -504,6 +514,29 @@ main section#blog-section article section ul li {
 main section#blog-section article section ul img {
     width: 25px;
 }
+
+section#blog-section article.blog-info li {
+    margin-right: 10px;
+}
+
+.content {
+    text-transform: none;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 2;
+
+}
+
+section#blog-section article.blog-info {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section#blog-section article.blog-info div {
+    width: 25%;
+
+}
+
 
 /*END-blog-section*/
 
@@ -761,41 +794,6 @@ footer  nav li a {
 }
 
 /* end-footer */
-
-
-/* import seamlessly*/
-
-.ok li {
-    margin-right: 10px;
-    border: 1px solid red;
-}
-
-.content {
-    width: 50%;
-        padding-top: 15px;
-        text-transform: none;
-        font-weight: normal;
-        letter-spacing: 0;
-        line-height: 1.5;
-        border: 1px solid black
-}
-
-.ok {
-    border: 1px solid blue;
-      flex-wrap: wrap;
-
-      justify-content: space-around;
-
-    
-}
-
-
-.test {
-    margin: 10px;
-}
-
-/*Brouillon*/
-
 
 
 
