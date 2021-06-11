@@ -1,3 +1,5 @@
+
+
 # Lien github : https://github.com/MelissaBen/Artspace
 
 # Lien firebase hosting-url : https://art-space-86275.web.app
@@ -38,11 +40,11 @@ jai choisi de faire un menu type burger qui affichera le menu à droite de l'éc
 
 # Javascript ( librarires)
 
--   Carousel : Splide.js
+-   Carousel : Slick.js
 -   Tooltip : Tippy js
 -   Animations :  WOW.js
 
-####Splide.js https://splidejs.com/ Très facile à manipuler et à mettre en place , très pratique..
+####Splide.js http://kenwheeler.github.io/slick/ Très facile à manipuler et à mettre en place , très pratique... 
 
 ####WOW.js https://wowjs.uk/ super librairie pour des animations trés fluide 
 

@@ -1,5 +1,6 @@
 //slick-slider
 
+
 $('.slider').slick({
   infinite: true,
   speed: 300,
