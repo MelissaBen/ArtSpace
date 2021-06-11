@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdn.boomcdn.com/libs/animate-css/3.7.0/animate.css" />
+    <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+
     <title>Art Space</title>
 </head>
 <body>
@@ -55,7 +57,7 @@
 
     <!--Start-main-->
     <main>
-     
+
         <!--Start-home-section-->
 
         <section class="home-section flex">
@@ -80,14 +82,14 @@
                     </div>
                     <p>Billed annually or $10 month-to-month.</p>
                     <ul>
-                        <li class="flex-center">20 Pages, Galleries & Blogs</li>
+                        <li class="flex-center tooltip" text="test ici">20 Pages, Galleries & Blogs</li>
                         <li class="flex-center">500 GB Bandwidth</li>
                         <li class="flex-center">2 GB Storage</li>
                         <li class="flex-center">Custom Domain <i class="flex-center">FREE</i></li>
                         <li class="flex-center">24/7 Support</li>
                     </ul>
                 </article>
-                <article class="price  -hover">
+                <article class="price">
                     <div class="most-popular-pricing flex-center">MOST POPULAR</div>
 
                     <h2>UNLIMITED</h2>
@@ -119,6 +121,7 @@
                         <li class="flex-center">24/7 Support</li>
                     </ul>
                 </article>
+          
                <!--- <div id="tooltip ">
                     <div><i>i</i></div>
                     <div>
@@ -127,6 +130,20 @@
                     </div>
                 </div>-->
         </section>
+
+<!-- start tooltip test-->
+        <span class="tooltip" title="This is my span's tooltip message!">Some text</span> <br>
+
+        <span class="tooltip" data-tooltip-content="#tooltip_content">This span has a tooltip with HTML when you hover over it!</span>
+
+       <div class="tooltip_templates">
+         <span id="tooltip_content">
+         <img src="assets/img/footer-truste.png" /> <strong>This is the content of my tooltip!</strong>
+       </span>
+       </div>
+
+<!-- End tooltip test-->
+
        
         <!--end-pricing-section-->
 
@@ -298,6 +315,8 @@
 
     <!--JQUERY-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
 
       <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/1c6875637a.js" crossorigin="anonymous"></script>

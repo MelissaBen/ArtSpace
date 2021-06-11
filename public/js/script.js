@@ -37,3 +37,11 @@ $('#fleche_haut').click(function(){
     },'slow');
 });
 
+
+//tooltip
+
+$(document).ready(function() {
+  $('.tooltip').tooltipster({
+    contentCloning: true
+});
+ })
