@@ -60,16 +60,13 @@ hr {
     margin: 40px 0;
     width: 400px;
     background-color: rgba(0, 0, 0, 0.9);
-   /* -webkit-box-shadow: 10px 10px 108px -42px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 108px -42px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 108px -42px rgba(0, 0, 0, 0.75);*/
     transition: 0.4s;
     cursor: pointer;
 }
-/*
+
 #pricing-section article:hover {
     transform: scale(1.05);
-}*/
+}
 
 #pricing-section article hr {
     background-color: white;
@@ -94,8 +91,6 @@ hr {
     line-height: 80%;
      margin-right: -15px; 
 }
-
-
 
 #pricing-section article span.month {
     height: 100;

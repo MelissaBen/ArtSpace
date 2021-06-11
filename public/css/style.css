@@ -444,6 +444,13 @@ main section#slider-section .slider img {
 
 /*END-slider-section*/
 
+/*start -pages-section*/
+#pages-section article div {
+    padding-top: 35px;
+}
+
+/*END-pages-section*/
+
 /*START-blog-section*/
 
 
@@ -787,15 +794,6 @@ footer  nav li a {
 }
 
 /* end-footer */
-
-
-/* import seamlessly*/
-
-
-
-
-/*Brouillon*/
-
 
 
 

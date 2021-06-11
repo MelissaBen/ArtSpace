@@ -30,3 +30,10 @@ $('.blog-slider').slick({
   nextArrow: $('.next-blog-slider'),
 });
 
+//fleche
+$('#fleche_haut').click(function(){
+    $('html,body').animate({
+        scrollTop:'20px'
+    },'slow');
+});
+

@@ -88,12 +88,7 @@
         color: grey;
         font-size: 35px;
     }
-
-
-   /*footer*/
-
-
-
+    
 }
 
 @media (max-width: 800px) {
@@ -172,7 +167,7 @@
        }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
 
 
     /* Icone responsive menu */
@@ -262,7 +257,5 @@
  
    
 }
-
-
 
 /* End-media queries*/
