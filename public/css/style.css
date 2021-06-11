@@ -59,7 +59,7 @@ h1,h2 {
 
 p {
     /*color: #646464;*/
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .bg-grey {
@@ -125,7 +125,10 @@ ul {
 a {
     text-decoration: none;
 }
+ em {
+     font-size: 20px;
 
+ }
 
 cite:before  {
     position: absolute;
@@ -305,7 +308,7 @@ main section#home-section div.home-section-header {
     background-image:url('../assets/img/hero-tour.jpg');
     background-size: cover;
     position:relative;
-    height:750px;
+    height:950px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -323,7 +326,9 @@ main section#home-section div.home-section-header hr {
 }
 main section#home-section div.home-section-header h1 {
      line-height: 1.5;
-     letter-spacing: 1px;
+     letter-spacing: 2px;
+     font-size: 40px;
+     text-align: center;
  
 }
 main section#home-section div.home-section-header .artist-name{
@@ -352,8 +357,9 @@ main section#home-section div.home-section-header div.home-links-container input
        padding: 15px 30px;
        text-transform: uppercase;
        font-weight: bold;
-       margin: 0 10px;
+       margin: 0 20px;
        cursor: pointer;
+       font-size: 16px;
 
 }
 main section#home-section div.home-section-header div.home-links-container{
@@ -369,7 +375,7 @@ main section#home-section div.home-section-header div.home-links-container input
 main section#home-section div.home-section-header div.home-links-container a {
           color: white;
           text-transform: uppercase;
-          font-size: 15px;
+          font-size: 17px;
 
 }
 
