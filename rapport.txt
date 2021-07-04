@@ -1,0 +1,55 @@
+
+
+# Lien github : https://github.com/MelissaBen/Artspace
+
+# Lien firebase hosting-url : https://art-space-86275.web.app
+
+# Environnement et production :
+
+### VSCode
+
+### HTML / CSS / JAVASCRIPT
+
+### GITHUB
+
+
+# HTML :
+
+-   Meta données
+-   Liens CDN's
+
+##Utilisation des balises de sémantique :
+
+-   head
+-   body
+-   header
+-   nav
+-   main
+-   footer
+-   section
+-   article
+-   p
+-   h1, h2, h3
+
+
+##Responsive :
+
+J'ai utilisée les flexbox pour le developpement du site et pour gerer facilement le responsive , j'ai utlisé (flex wrap ,flex-direction: column ... ); text-align:center et j'ai modifié les padding et margin pour un rendu plus visible .
+jai choisi de faire un menu type burger qui affichera le menu à droite de l'écran.
+
+
+# Javascript ( librarires)
+
+-   Carousel : Slick.js
+-   Tooltip : Tippy js
+-   Animations :  WOW.js
+
+####Splide.js http://kenwheeler.github.io/slick/ Très facile à manipuler et à mettre en place , très pratique... 
+
+####WOW.js https://wowjs.uk/ super librairie pour des animations trés fluide 
+
+####Tippy.js https://atomiks.github.io/tippyjs Très facile à manipuler et à mettre en place , très pratique..
+
+# Ajouts personels :
+
+-   Quelques animations fluides ( en utilisant wow.js)
